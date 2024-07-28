@@ -1,0 +1,153 @@
+
+.yellow-strip {
+  background-color: yellow;
+  height: 20px; /* Adjust height as needed */
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  text-align: center;
+  margin: 10px;
+  
+  
+} 
+
+/* .container input,
+.container button {
+  margin: 10px;  
+}  */
+
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0; /* Adjust the background color as needed */
+}
+
+.left-menu {
+  display: flex;
+}
+
+.left-menu p {
+  margin-right: 20px; /* Add margin to the right of each left-menu item */
+  margin-left: 20px;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px; /* Align items horizontally */
+}
+
+.user-info p {
+  margin-right: 20px; /* Add some space between username and Logout button */
+  margin-right: 20px;
+}
+
+/*css for createEmployee */
+.employee-form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"],
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group select {
+  padding: 8px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/*css for table*/
+.employee-table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.employee-image {
+  width: 50px;
+  height: auto;
+}
+
+
+/* required field css*/
+
+.required {
+  color: red;
+}
+
+.error-message{
+  color: red;
+}
+
